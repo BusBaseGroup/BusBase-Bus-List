@@ -11,3 +11,11 @@ The same recording bank is used by:
 
 Current bank: 179 professional recordings covering every announcement
 sentence used by the 165 configured stops across the 16 routes.
+
+Live passenger-screen fix
+-------------------------
+- Uses one persistent audio player for the passenger screen.
+- Audio is unlocked by the driver's/user's click before GPS-driven playback.
+- A stop is only marked announced after playback actually starts.
+- Failed automatic playback is retried on the next live refresh.
+- Normalised wording lookup handles minor BusTimes punctuation/locality differences.
