@@ -1,7 +1,13 @@
-BusBase professional announcement bank
+BusBase professional announcement audio
+======================================
 
-Every Next stop / This stop sentence currently used by the tracker demo has a professional AI Doc Maker recording.
+This build uses direct professional AI MP3 playback URLs.
+It does NOT use the old AI Doc Maker generator/session URLs,
+the removed on-demand TTS server, or browser speech synthesis.
 
-The admin panel also embeds the full URL bank, so it does not fall back to the browser voice if manifest.json fails to load.
+The same recording bank is used by:
+- /tracker/index.html passenger Next stop screen
+- /tracker/admin/index.html announcement demo
 
-Professional-only demo mode: browser text-to-speech is disabled.
+Current bank: 179 professional recordings covering every announcement
+sentence used by the 165 configured stops across the 16 routes.
